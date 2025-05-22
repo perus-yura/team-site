@@ -1,0 +1,43 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f8f8ff, #e0f7fa);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #00796b;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.student-list {
+  list-style: none;
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.student-list li a {
+  background-color: #ffffff;
+  padding: 1em 2em;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #00796b;
+  font-weight: bold;
+  border: 2px solid #00796b;
+  transition: 0.3s;
+}
+
+.student-list li a:hover {
+  background-color: #00796b;
+  color: white;
+}
