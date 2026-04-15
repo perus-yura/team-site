@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    color: #333;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+}
+
+.sidebar {
+    background: linear-gradient(to bottom, #2c3e50, #34495e);
+    color: #ecf0f1;
+    width: 250px;
+    padding: 30px 20px;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.sidebar h2 {
+    font-size: 1.6em;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background: #1abc9c;
+    color: #fff;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background: #1abc9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #16a085;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 50px 60px;
+    background-color: #ffffff;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.05);
+    transition: padding 0.3s ease;
+}
+
+.content h1 {
+    font-size: 2.8em;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #1abc9c;
+    padding-bottom: 12px;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.9;
+    margin-bottom: 25px;
+    text-align: justify;
+    max-width: 800px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .content {
+        padding: 30px 20px;
+    }
+
+    .content h1 {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+}
