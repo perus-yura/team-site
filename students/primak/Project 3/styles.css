@@ -1,0 +1,30 @@
+/* Крок 2: Налаштування сітки */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 60px;
+    min-height: 100vh;
+    gap: 16px;
+}
+
+/* Крок 3: Стилі для блоків */
+.header { grid-area: header; background-color: #3498db; color: white; padding: 20px; text-align: center; }
+.sidebar { grid-area: sidebar; background-color: #2ecc71; padding: 20px; }
+.main-content { grid-area: main; background-color: #ecf0f1; padding: 20px; }
+.footer { grid-area: footer; background-color: #34495e; color: white; padding: 20px; text-align: center; }
+
+/* Крок 4: Адаптація для телефонів */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-areas:
+            "header"
+            "sidebar"
+            "main"
+            "footer";
+        grid-template-columns: 1fr;
+    }
+}
