@@ -1,0 +1,12 @@
+.item {
+    background-color: #f1f1f1;
+    border: 1px solid #333;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    background-color: DodgerBlue;
+    display: flex; /* Це активує Flexbox */
+}
