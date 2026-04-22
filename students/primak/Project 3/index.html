@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Grid Layout</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Макет з позиціонуванням</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="grid-container">
-        <header class="header">Header</header>
-        <aside class="sidebar">Sidebar</aside>
-        <main class="main-content">Main Content</main>
-        <footer class="footer">Footer</footer>
+
+    <header class="header">Header (Fixed Top)</header>
+
+    <div class="wrapper">
+        <aside class="sidebar">Sidebar (Fixed Left)</aside>
+        <main class="main-content">
+            <h1>Main Content</h1>
+            <p>Тут розміщується основний контент сторінки...</p>
+            <div style="height: 1000px;">Контент для тестування скролу...</div>
+        </main>
     </div>
+
+    <footer class="footer">Footer (Relative)</footer>
+
 </body>
 </html>
