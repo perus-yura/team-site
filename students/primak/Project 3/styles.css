@@ -1,30 +1,96 @@
-/* Адаптація для мобільних пристроїв (екран менше 768px) */
+/* Базові скидання */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 2000px; /* Для перевірки Fixed */
+}
+
+/* Налаштування Grid-сітки */
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 60px;
+    min-height: 100vh;
+    gap: 15px;
+}
+
+/* Стилі секцій Grid */
+.header { grid-area: header; background-color: #3498db; color: white; padding: 20px; text-align: center; }
+.sidebar { grid-area: sidebar; background-color: #2ecc71; padding: 20px; }
+.main-content { grid-area: main; background-color: #ecf0f1; padding: 20px; }
+.footer { grid-area: footer; background-color: #34495e; color: white; padding: 20px; text-align: center; }
+
+/* Блоки позиціонування */
+.static-box, .relative-box, .absolute-parent {
+    width: 200px;
+    height: 100px;
+    margin: 20px 0;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.static-box { background-color: #3498db; position: static; color: white; }
+
+.relative-box { 
+    background-color: #2ecc71; 
+    position: relative; 
+    top: 20px; 
+    left: 20px; 
+    color: white; 
+}
+
+.absolute-parent { 
+    background-color: #f1c40f; 
+    position: relative; 
+    height: 150px;
+}
+
+.absolute-box { 
+    background-color: #e74c3c; 
+    position: absolute; 
+    bottom: 5px; 
+    right: 5px; 
+    width: 80px; 
+    height: 40px; 
+    color: white;
+}
+
+.fixed-box { 
+    background-color: #9b59b6; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    width: 80px; 
+    height: 40px; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+/* Адаптація для телефонів */
 @media (max-width: 768px) {
-    div {
-        width: 95%; /* Блоки займають майже всю ширину екрана */
-        margin: 10px auto; /* Центруємо блоки */
-        left: 0 !important; /* Скасовуємо зміщення для Relative */
-        top: 0 !important;
+    .grid-container {
+        grid-template-areas:
+            "header"
+            "sidebar"
+            "main"
+            "footer";
+        grid-template-columns: 1fr;
     }
 
-    .absolute-parent {
-        height: auto; /* Дозволяємо жовтому блоку розтягуватися */
-        min-height: 200px;
-    }
-
-    .absolute-box {
-        width: 100px; /* Трохи зменшуємо червоний блок для мобілки */
-        position: relative; /* На маленьких екранах Absolute краще змінити на Relative */
-        right: 0;
-        bottom: 0;
+    .static-box, .relative-box, .absolute-parent {
+        width: 90%;
         margin: 10px auto;
-    }
-
-    .fixed-box {
-        width: 80px;
-        height: 40px;
-        font-size: 12px;
-        bottom: 10px;
-        right: 10px;
+        left: 0 !important;
+        top: 0 !important;
     }
 }
