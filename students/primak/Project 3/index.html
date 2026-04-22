@@ -3,34 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Макет з позиціонуванням</title>
+    <title>Фінальний адаптивний макет</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header class="header">Header (Fixed Top)</header>
+    <header class="header">Header</header>
 
     <div class="wrapper">
-        <aside class="sidebar">Sidebar (Fixed Left)</aside>
+        <aside class="sidebar">
+            <h3>Sidebar</h3>
+            <p>Навігація або додаткова інформація.</p>
+        </aside>
 
         <main class="main-content">
             <h1>Main Content</h1>
-            <p>Тут розміщується основний контент сторінки...</p>
-            
+            <p>Тут відображається основна частина вашої сторінки.</p>
+
+            <hr>
+
             <div class="static-box">Static Box</div>
+
             <div class="relative-box">Relative Box</div>
+
             <div class="absolute-parent">
                 Absolute Parent
                 <div class="absolute-box">Absolute Child</div>
             </div>
 
-            <div style="height: 1000px; margin-top: 20px; color: gray;">
-                Контент для тестування скролу (гортайте вниз)...
+            <div style="height: 600px; margin-top: 30px; color: #ccc; border: none;">
+                Гортайте вниз, щоб побачити адаптивність...
             </div>
         </main>
     </div>
 
-    <footer class="footer">Footer (Relative)</footer>
+    <footer class="footer">Footer</footer>
 
 </body>
 </html>
