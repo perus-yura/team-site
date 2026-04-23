@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  flex-wrap: wrap;
+  align-items: center;
+  height: 300px;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+  border: 2px solid #3498db;
+  padding: 20px;
+}
+
+.item {
+  background-color: #2ecc71;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  margin: 5px;
+}
+.item:nth-child(2) {
+  align-self: flex-end;
+  flex-grow: 2;
+}
