@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    border: 1px soid #ddd;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 300px;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+.item {
+    background-color: #2ecc71;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+.item:nth-child(2) {
+    align-self: flex-end;
+    flex-grow:2;
+}
+.menu {
+    display: flex;
+    justify-content:space-around;
+    background: #34495e;
+    padding:15px;
+}
+.menu a {
+    color:white;
+    text-decoration: none;
+}
