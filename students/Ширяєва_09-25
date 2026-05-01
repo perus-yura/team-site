@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Ширяєва Марія</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        h2 {
+            color: #34495e;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .contact {
+            background: #eef2f7;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Ширяєва Марія</h1>
+
+    <p class="intro">
+        Вітаю на моїй персональній сторінці!
+    </p>
+
+    <h2>Про мене</h2>
+    <p>
+        Я студентка, яка вивчає веб-розробку, Git та основи програмування.
+        Мені цікаво створювати сайти та працювати з сучасними технологіями.
+    </p>
+
+    <h2>Мої проєкти</h2>
+    <ul>
+        <li>Навчальний HTML сайт</li>
+        <li>Командний Git проєкт</li>
+        <li>Моя перша веб-сторінка</li>
+    </ul>
+
+    <h2>Навички</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS (основи)</li>
+        <li>Git / GitHub</li>
+    </ul>
+
+    <h2>Контакти</h2>
+    <div class="contact">
+        Email: siraevamaria66@gmail.com <br>
+        GitHub: https://github.com/your-profile
+    </div>
+
+</div>
+
+</body>
+</html>
