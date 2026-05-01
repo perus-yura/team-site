@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфоліо студента</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Мої роботи</h2>
+            <ul>
+                <li><a href="#">Проєкт 1</a></li>
+                <li><a href="#">Проєкт 2</a></li>
+                <li><a href="#">Проєкт 3</a></li>
+                <li><a href="#">Проєкт 4</a></li>
+            </ul>
+            <a href="index.html" class="btn-back">Назад на головну</a>
+        </aside>
 
+        <main class="content">
+            <h1>Привіт! Я студентка веб-розробки</h1>
+
+            <p>
+                Мене звати Ширяєва Марія, я студентка, яка навчається за напрямом «Комп'ютерні науки».
+                Мені цікаво створювати сучасні, зручні та адаптивні веб-сайти.
+                Я вивчаю HTML, CSS та основи JavaScript.
+            </p>
+
+            <p>
+                Я постійно розвиваю свої навички, виконую навчальні проєкти та працюю над практичними завданнями.
+                Моя мета — покращити знання у сфері front-end розробки та створювати якісні веб-сторінки.
+            </p>
+
+            <p>
+                Нижче представлені мої навчальні роботи, які я виконую під час навчання та практики.
+            </p>
+        </main>
+    </div>
+</body>
+</html>
