@@ -1,6 +1,8 @@
 body {
   background: #ddd;
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
 }
 
 .container {
@@ -9,29 +11,42 @@ body {
   padding: 40px;
   background: #eee;
   border-radius: 8px;
+  border: 1px solid #ccc;
 }
 
+/* БАЗА */
 .block {
-  width: 300px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
   color: white;
-  font-size: 20px;
   font-weight: bold;
-  margin-bottom: 30px;
 }
 
+/* margin */
 .block1 {
-  background: #3b8ec2;
+  background: #3498db;
+  margin: 10px 30px;
 }
 
+/* padding */
 .block2 {
-  background: #35c06b;
+  background: #2ecc71;
+  padding: 5px 15px 10px 20px;
 }
 
+/* border */
 .block3 {
-  background: #e74c3c;
+  background: #9b59b6;
+  border: 3px dashed #e74c3c;
+  box-sizing: border-box;
 }
 
+/* додаткове */
+.block4 {
+  background: #f39c12;
+  margin-top: 50px;
+  padding-left: 40px;
+  border: 5px double #000;
+}
