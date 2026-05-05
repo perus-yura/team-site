@@ -1,0 +1,62 @@
+/* Базові налаштування */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Налаштування сітки */
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "sidebar main"
+        "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 60px;
+    min-height: 100vh;
+    gap: 10px;
+}
+
+/* Стилі для блоків */
+.header {
+    grid-area: header;
+    background-color: #3498db;
+    color: white;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #2ecc71;
+}
+
+.main-content {
+    grid-area: main;
+    background-color: #ecf0f1;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #34495e;
+    color: white;
+}
+
+/* Загальні стилі тексту */
+.header, .sidebar, .main-content, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Адаптація для мобільних (Крок 4) */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-areas: 
+            "header"
+            "sidebar"
+            "main"
+            "footer";
+        grid-template-columns: 1fr;
+    }
+}
