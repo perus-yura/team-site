@@ -6,7 +6,7 @@
     "footer footer";
     grid-template-columns: 200px 1fr; /* siader - 200px, main - решта */
     grid-template-rows: 80px 1fr 60px; /* Висота header, main, footer */
-    main-height: 100vh; /* на всю висоту екрану */
+    min-height: 100vh;
     gap: 16px; /* Відсутність між елементами */
 }
 .header {
@@ -19,15 +19,15 @@
 .sidebar {
     grid-area: sidebar;
     background-color: #2eec71;
-    padding: 20px
+    padding: 20px;
 }
 .main-content {
-    grip-area: main;
+    grid-area: main;
     background-color: #ecf0f1;
     padding: 20px;
 }
 .footer {
-    grip-area: footer;
+    grid-area: footer;
     background-color: #34495e;
     color: white;
     padding: 20px;
@@ -39,7 +39,6 @@
         "header"
         "sidebar"
         "main"
-        "grid-template-rows"
         "foter";
         grid-template-columns: 1fr; /* Одна колонка */
     }
