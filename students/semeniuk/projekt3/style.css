@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+    grid-template-columns: 200px 1fr; /* siader - 200px, main - решта */
+    grid-template-rows: 80px 1fr 60px; /* Висота header, main, footer */
+    min-height: 100vh;
+    gap: 16px; /* Відсутність між елементами */
+}
+.header {
+    grid-area: header;
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: #2eec71;
+    padding: 20px;
+}
+.main-content {
+    grid-area: main;
+    background-color: #ecf0f1;
+    padding: 20px;
+}
+.footer {
+    grid-area: footer;
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-areas:
+        "header"
+        "sidebar"
+        "main"
+        "foter";
+        grid-template-columns: 1fr; /* Одна колонка */
+    }
+}

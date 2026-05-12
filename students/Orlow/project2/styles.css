@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    border: 2px solid#3498db;
+    padding: 20px;
+}
+
+.item {
+    background-color: #2ecc71;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+.container {
+    height: 300px;
+    align-items: center;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+.

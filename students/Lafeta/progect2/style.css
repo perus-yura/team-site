@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+
+.item {
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #000;
+}
+
+/* Кольори для кожного елемента */
+.element-1 {
+    background-color: red;
+}
+
+.element-2 {
+    background-color: #00b050; /* Зелений */
+}
+
+.element-3 {
+    background-color: #7030a0; /* Фіолетовий */
+}
+.element-4 {
+    background-color: black;
+    color: white; /* Змінюємо колір тексту на білий, щоб його було видно на чорному фоні */
+}
