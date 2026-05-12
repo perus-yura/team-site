@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    background-color: #b99797;
+    padding: 20px;
+    border: 1px solid #cf8c8c;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.box {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: bold;
+    border-color: white;
+}
+.box1 {
+    background-color: #bf9869;
+    margin: 20px;
+    margin: 10px 30px;
+}
+.box2 {
+    background-color:aqua;
+    padding: 20px;
+    padding: 5px 15px 10px 20px;
+}
+.box3 {
+    background-color: #cb8bec;
+    border: 3px dashed #e74e3c;
+    box-sizing: border-box;
+}
