@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}   
+.item {
+    background-color: #2ecc71;
+    color: white;
+    flex: size 24px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px colid #3498db;
+    padding: 20px;
+    height: 300px;
+    align-items: center;
+    flex-wrap: wrap
+}
+.item:nth-child(2){
+   align-self: flex-end;
+   flex-grow: 2;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background: #babfc5;
+    padding: 15px;
+}
+.menu a {
+    color: #02ad16;
+    text-decoration: none;
+}
