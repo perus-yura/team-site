@@ -1,0 +1,39 @@
+.grid-container {
+display: grid;
+grid-template-areas: 
+"header header"
+"sidebar main"
+"footer footer";
+grid-template-columns: 200px 1fr;
+grid-template-rows: 80px 1fr 60px;
+min-height: 100vh;
+gap: 16px;
+}
+.header {
+    grid-area: header;
+    background-color: rgb(7, 196, 7);
+    font-size: xx-large;
+    color: rgb(203, 241, 31);
+    padding: 20px;
+    text-align: center;
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgba(134, 135, 237, 0.738);
+    padding: 20px;
+    color: aqua;
+}
+.main {
+    grid-area: main;
+    background-color: aquamarine;
+    color: azure;
+    padding: 20px;
+}
+.footer {
+    grid-area: footer;
+    background-color: black;
+    color: rgb(215, 228, 23);
+    font-size: x-large;
+    text-align: center;
+    padding: 20px;
+}

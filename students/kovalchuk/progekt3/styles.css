@@ -1,0 +1,44 @@
+.grid-container {
+display:  grid;
+grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+grid-template-columns: 200px 1fr;
+grid-template-rows: 80px 1fr 60px;
+min-height:100vh;
+gap :16px;
+}
+.header {
+    grid-area: header;
+    background-color: bisque;
+    font-size : xx-iarge ;
+    color: #cd3131;
+    font-size: xx-large;
+    padding: 20px;
+    text-align: center;
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(84, 34, 165);
+    font-size: x-large;
+    color: #a19595;
+    padding: 20px;
+    text-align: center;
+}
+.main {
+    grid-area: main;
+    background-color: bisque;
+    font-size : xx-large ;
+    color: #cd3131;
+    padding: 20px;
+    text-align: center;
+}
+.footer {
+    grid-area: footer;
+    background-color: rgb(17, 16, 14);
+    font-size:x-large ;
+    color: #cd3131;
+    padding: 20px;
+    text-align: center;
+}
