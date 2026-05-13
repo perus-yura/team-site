@@ -23,9 +23,9 @@
 
 .flex-gallery img:hover {
     transform: scale(1.05);
-    box-shadow: 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
-@media (max-width:600px) {
+@media (max-width: 600px) {
     .flex-gallery img {
         width: 150px;
         height: 150px;
@@ -52,4 +52,21 @@
     .grid-gallery {
         grid-template-columns: 1fr;
     }
+}
+
+.combo-gellery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption {
+    margin-top: 10px;
+    font-family: Arial sans-serif;
 }
