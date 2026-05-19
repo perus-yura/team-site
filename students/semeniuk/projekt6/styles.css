@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.header,  .navbar, .content, .sidebar, .foter {
+.header,  .navbar, .content, .sidebar, .footer {
     padding: 20px;
     text-align: center;
 }
@@ -53,7 +53,7 @@ body {
         grid-area: content;
     }
 
-    .foteer {
+    .footeer {
         grid-area: footer;
     }
 
