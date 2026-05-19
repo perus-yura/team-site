@@ -1,0 +1,105 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Блоки */
+.header,
+.navbar,
+.content,
+.sidebar,
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #2ecc71;
+    color: white;
+}
+
+/* Main Content */
+.content {
+    background-color: #ecf0f1;
+    min-height: 200px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #9b59b6;
+    color: white;
+    display: none;
+}
+
+/* Footer */
+.footer {
+    background-color: #34495e;
+    color: white;
+}
+
+/* Планшети */
+@media (min-width: 768px) {
+
+    body {
+        display: grid;
+
+        grid-template-areas:
+            "header header"
+            "navbar content"
+            "footer footer";
+
+        grid-template-columns: 150px 1fr;
+    }
+
+    .header {
+        grid-area: header;
+    }
+
+    .navbar {
+        grid-area: navbar;
+    }
+
+    .content {
+        grid-area: content;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+
+    .sidebar {
+        display: block;
+        grid-area: sidebar;
+    }
+}
+
+/* ПК */
+@media (min-width: 1024px) {
+
+    body {
+        display: grid;
+
+        grid-template-areas:
+            "header header header"
+            "navbar content sidebar"
+            "footer footer footer";
+
+        grid-template-columns: 200px 1fr 200px;
+    }
+
+    .content {
+        padding: 40px;
+    }
+
+    .sidebar {
+        display: block;
+    }
+}
