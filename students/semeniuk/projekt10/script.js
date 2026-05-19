@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const dots = document.querySelectorAll('.dot');
 
     function goToSlide(slideIndex) {
-        slider.computedStyleMap.transform = `translateX(-${slideIndex * 100}%)`;
+        slider.style.transform = `translateX(-${slideIndex * 100}%)`;
         currentSlide = slideIndex;
         updateDots();
     }
