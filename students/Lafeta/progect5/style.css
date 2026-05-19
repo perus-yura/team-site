@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background: #ececec;
+    font-family: Arial, sans-serif;
+}
+
+/* Кнопка */
+
+.btn{
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #0b7dda;
+    transform: scale(1.1);
+}
+
+/* Контейнер */
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+/* Фіолетовий блок */
+
+.purple-box{
+    width: 120px;
+    height: 120px;
+    background: purple;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 150px;
+    left: 48%;
+
+    animation: pulse 2s infinite;
+}
+
+/* Червоний квадрат */
+
+.red-box{
+    width: 80px;
+    height: 80px;
+    background: #f04b37;
+
+    position: absolute;
+    top: 40px;
+    left: 70%;
+
+    animation: moveBox 2s infinite alternate;
+}
+
+/* Анімація пульсу */
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.2);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* Анімація руху */
+
+@keyframes moveBox{
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(80px);
+    }
+}
