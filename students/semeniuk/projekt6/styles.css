@@ -19,7 +19,7 @@ body {
 
 .content {
     background-color: #ecf0f1;
-    main-height: 200px;
+    min-height: 200px;
 }
 
 .sidebar {
@@ -27,11 +27,15 @@ body {
     color: white;
     display: none;
 }
-@media (main-width: 768px) {
+.footer {
+    background-color: #34495e;
+    color: white;
+}
+@media (min-width: 768px) {
     body {
         display: grid;
         grid-template-areas: 
-        "headernheader"
+        "header header"
         "navbar content"
         "footer footer";
         grid-template-columns: 150px 1fr;
@@ -58,7 +62,7 @@ body {
         grid-area: sidebar;
     }
 }
-@media (main-width: 1024px) {
+@media (min-width: 1024px) {
     body {
         grid-template-areas:
         "header header header"
