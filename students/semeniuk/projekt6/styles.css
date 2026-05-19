@@ -57,10 +57,7 @@ body {
         grid-area: footer;
     }
 
-    .sidebar {
-        display: block;
-        grid-area: sidebar;
-    }
+    
 }
 @media (min-width: 1024px) {
     body {
@@ -74,5 +71,10 @@ body {
     .content {
         padding: 40px;
     }
+    .sidebar {
+        display: block;
+        grid-area: sidebar;
+    }
+    
 }
     
