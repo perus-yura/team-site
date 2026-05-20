@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Паралакс-Ефект</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="parallax-header">
+        <h1>Паралакс-ефектb</h1>
+    </header>
+    <section class="content-section">
+        <div class="text-block">
+            <h2>Секція 1</h2>
+            <p>Тут буде ваш текст...</p>
+        </div>
+    </section>
+
+    <section class="parallax-section" id="parallax"></section>
+    <section class="content-section">
+        <div class="text-block">
+            <h2>Секція 2</h2>
+            <p>Тут буде ваш текст..</p>
+        </div>
+    </section>
+    <section class="parallax-section" id="parallax2"></section>
+    <script src="js/script.js"></script>
+    <div class="parallax-container">
+        <div class="parallax-layer layer-back"></div>
+        <div class="parallax-layer layer-middle"></div>
+        <div class="parallax-layer layer-front"></div>
+    </div>
+    <section class="parallax-section" id="parallax1" data-speed="0.3"></section>
+    <section class="parallax-section" id="parallax2" data-speed="0.7"></section>
+</body>
+</html>

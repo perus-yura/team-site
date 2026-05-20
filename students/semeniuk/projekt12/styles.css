@@ -87,9 +87,7 @@ body {
     font-weight: bold;
     opacity: 0.8;
 }
-.box {
-  transition: opacity 0.3s ease-in-out;
-}
+
 .transparency-box:hover {
   opacity: 0.6;
 }
