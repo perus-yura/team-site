@@ -2,26 +2,38 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    height: 2000px;
+    height: 200px;
 }
+
 div {
-    width: 2000px;
+    width: 200px;
     height: 100px;
     padding: 20px;
-    font-weight: center;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
     color: white;
     border: 2px solid black;
 }
+
 .static-box {
     background-color: #3498db;
     position: static;
 }
+
 .relative-box {
     background-color: #2eee71;
     position: relative;
     top: 30px;
     left: 50px;
 }
+.absolute-parent {
+background-color: #f1c40f;
+height: 200px;
+position: relative;
+margin-top: 50px;
+}
+
 .absolute-box {
     background-color: #e74c3c;
     position: absolute;
@@ -29,6 +41,7 @@ div {
     right: 20px;
     width: 150px;
 }
+
 .fixed-box {
     background-color: #9b59b6;
     position: fixed;
@@ -37,27 +50,31 @@ div {
     width: 100px;
     height: 50px;
 }
+
 .main-nav {
     position: fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: #34495e;
     padding: 15px 0;
     z-index: 1000;
 }
+
 .main-nav a {
     color: white;
     text-decoration: none;
     padding: 15px 20px;
 }
-.tooltip-contantner {
+
+.tooltip-container {
     position: relative;
     margin: 100px auto;
     width: 200px;
     padding: 20px;
     background-color: #1abc9c;
 }
+
 .tooltip {
     position: absolute;
     bottom: 100%;
@@ -69,6 +86,7 @@ div {
     border-radius: 5px;
     display: none;
 }
-.tooltip-contantner:hover .tooltip {
+
+.tooltip-container:hover .tooltip {
     display: block;
 }
