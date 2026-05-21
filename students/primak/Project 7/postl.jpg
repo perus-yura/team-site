@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="uk">
+<head>
+<meta name="theme-color" content="#5d6aa5">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- sag -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- sag -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">   sag -->
+<link rel="stylesheet" href="https://toursdekiev.com.ua/files/img/bootstrap.min.css">  <!-- sag -->
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="icon" href="https://toursdekiev.com.ua/files/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://toursdekiev.com.ua/files/img/favicon.ico" type="image/x-icon"> 
+<meta name="msvalidate.01" content="FB67872A32C2CB1DD78E408FED5B93BA" />
+
+<meta http-equiv="Content-Language" content="uk" />
+
+<title>Екскурсія у парк «Київська Русь»</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<link rel="stylesheet" type="text/css" href="/s/spf/s.css" />
+<link rel="stylesheet" type="text/css" href="/csss" />
+
+<link rel="stylesheet" type="text/css" href="https://toursdekiev.com.ua/files/img/tdk-custom.css" /> <!-- sag -->
+
+<script type="text/javascript" src="/lb/js/lightbox.js"></script>
+<link rel="stylesheet" href="/lb/css/lightbox.css" type="text/css" media="screen"/>
+
+<!-- Lightbox Overrides -->
+<script>
+    LightboxOptions.labelImage="Зображення";
+    LightboxOptions.labelOf="з"
+</script>
+<style>
+#nextLink:hover, #nextLink:visited:hover {
+    background:transparent url(/lb/images/nextlabel.gif) no-repeat scroll right 100%;
+}
+#nextLink, #nextLink {
+    background:transparent url(/lb/images/nextlabel.gif) no-repeat scroll right 100%;
+}
+#prevLink:hover, #prevLink:visited:hover {
+    background:transparent url(/lb/images/prevlabel.gif) no-repeat scroll left 100%;
+}
+#prevLink, #prevLink {
+    background:transparent url(/lb/images/prevlabel.gif) no-repeat scroll left 100%;
+}
+
+</style><meta content="Парк «Київська Русь», екскурсія, Копачів, стародавній Київ, історія, гридниця, повалуша, лодія" name="keywords"/>
+<meta content="Час здійснити подорож до стародавнього Києва та відвідати парк «Київська Русь» з екскурсією." name="description"/>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8065486-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+<body id="page_bg" class="main_bg_">
+
+    <main id="main">
+    	<div id="kehys">
+        	<div id="boxes">
+                <div id="kehys_wrap">
+                    <div id="header" class="hidden-xs" style="background-repeat: no-repeat; background-position: center;"> <!-- style sag -->
+                        <div class="menu_lang mainlevel-nav">
+
+
+                        <a class="lang first" style="font-weight: bold;" title="uk" href="/uk/ekskursia-park-kyivska-rus">uk</a>
+            
+                        <a class="lang" title="ru" href="/ru/ekskursia-park-kyivska-rus">ru</a>
+            
+                        <a class="lang" title="en" href="/en/ekskursia-park-kyivska-rus">en</a>
+            
+                        <a class="lang last" title="fr" href="/fr/ekskursia-park-kyivska-rus">fr</a>
+            
+</div>                        
+    <div class="menu_additional">
+
+                                            <a class="lang first" href="/uk/news">Новини</a>
+                    
+
+
+                                            <a class="lang last" href="/uk/sitemap">Мапа сайту</a>
+                    
+
+
+        
+    </div>
+                        <div style="clear: both;"></div>
+                        <div id="logo">
+                            <a href="/uk" title="Tours De Kyiv logo"><img width="480" height="95" src="/files/img/ToursDeKiev-logo3.png"/></a>
+                        </div>
+                    </div>
+                    <nav id="mainnavi">
+                        <div id="mainnavi_left">
+                            <div id="mainnavi_right">
+                                <div id="navi">
+                                    <div class="hidden-xs">
+                    <ul id="mainlevel-menu">
+                        
+                                                            <li><a href="/uk/turi-v-kiev" class="mainlevel-menu" title="Тури в Київ">
+                                    Тури в Київ
+                                </a></li>
+                            
+                        
+                                                            <li><a href="/uk/tours" class="mainlevel-menu" title="Екскурсії по Києву">
+                                    Екскурсії по Києву
+                                </a></li>
+                            
+                        
+                                                            <li><a href="/uk/ekskursii-dlya-shkolnikov" class="mainlevel-menu" title="Екскурсії для школярів">
+                                    Екскурсії для школярів
+                                </a></li>
+                            
+                        
+                                                            <li><a href="/uk/turi-vihodnogo-dnia" class="mainlevel-menu" title="Заміські екскурсії">
+                                    Заміські екскурсії
+                                </a></li>
+                            
+                        
+                                                            <li><a href="/uk/info" class="mainlevel-menu" title="Інформація про Київ">
+                                    Інформація про Київ
+                                </a></li>
+                            
+                        
+                                                            <li><a href="/uk/contacts" class="mainlevel-menu" title="Контакти">
+                                    Контакти
+                                </a></li>
+                            
+                                            </ul>
+</div>
+<div class="visible-xs-block">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	  <div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-tdk-navbar-collapse-main">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" style="color: #5d6aa5;" href="/uk">ToursDeKiev</a> 
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-tdk-navbar-collapse-main">
+		<ul class="nav navbar-nav">
+                                                                                    <li class="li-mobile-menu"><a href="/uk/turi-v-kiev" title="Тури в Київ">
+                                    Тури в Київ
+                                </a></li>
+                                                                                                                <li class="li-mobile-menu"><a href="/uk/tours" title="Екскурсії по Києву">
+                                    Екскурсії по Києву
+                                </a></li>
+                                                                                                                <li class="li-mobile-menu"><a href="/uk/ekskursii-dlya-shkolnikov" title="Екскурсії для школярів">
+                                    Екскурсії для школярів
+                                </a></li>
+                                                                                                                <li class="li-mobile-menu"><a href="/uk/turi-vihodnogo-dnia" title="Заміські екскурсії">
+                                    Заміські екскурсії
+                                </a></li>
+                                                                                                                <li class="li-mobile-menu"><a href="/uk/info" title="Інформація про Київ">
+                                    Інформація про Київ
+                                </a></li>
+                                                                                                                <li class="li-mobile-menu"><a href="/uk/contacts" title="Контакти">
+                                    Контакти
+                                </a></li>
+                                                    <div class="nav-lang">
+    <a class="lang-item" href="/uk">UA</a>
+    <a class="lang-item" href="/ru">ru</a>
+    <a class="lang-item" href="/en">EN</a>
+    <a class="lang-item" href="/fr">FR</a>
+</div>
+         </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid hidden-xs -->
+</nav>
+</div>                                </div>
+                            </div>
+                        </div>
+                    </nav>
+ <div class="container"> <!-- sag -->
+                    <div class="colmask columns row" ><!-- sag colrightcolor     -->
+                        <div class="colmid colmaincolor"><!--    sag -->
+                            <div class="colleft">
+                                <div class="col1wrap">
+                                    <div class="col1 col-md-9 col-md-push-3"><!--   sag -->
+
+                                        <!--Main column start-->
+                                        <div id="page_content">
+                                    		<div style="height: 1px;"></div>
+
+<div itemscope itemtype="http://schema.org/WebPage">
+<div itemprop="breadcrumb" class="breadcrumbs" style="padding-top: 1em; margin-top: 1.5em;">
+<a href="/">Головна</a> &gt;  
+<a href="/uk/turi-vihodnogo-dnia">Заміські екскурсії</a> &gt;  
+Парк «Київська Русь»
+</div>
+</div>
+
+
+                                                                                            <h1>Екскурсія у парк «Київська Русь»</h1>
+                                                                                		<div style="width: 99%;">
+                                    			<p>
+                                    				<p>Пропонуємо здійснити подорож до стародавнього Києва та відвідати парк &laquo;Київська Русь&raquo; з екскурсією.</p>
+<p><img src="/files/turi-vih-dnya/park KR/KyivanRus-1.JPG" width="1200" height="800" alt="Парк Київська Русь" title="Парк Київська Русь" class="img-responsive" /></p>
+<p>Парк &laquo;Київська Русь&raquo;, розташований у селі Копачів Обухівського району Київської області, є своєрідним <strong>відродженим центром культури стародавньої України-Русі</strong>. На площі понад 10 Га, де одночасно можуть вільно розміститися понад 10 тисяч осіб, відтворено древнє місто Київ V-XIII століть.</p>
+<p><img src="/files/turi-vih-dnya/park KR/KyivanRus-2.JPG" width="1200" height="800" alt="Парк Київська Русь" title="Парк Київська Русь" class="img-responsive" /></p>
+<p><strong>Тут екскурсанти побачать:</strong></p>
+<ul>
+    <li>оборонні споруди: вали та рови, дерев&rsquo;яну фортечну стіну, браму;</li>
+    <li>громадські споруди: садибу киянина, повалушу &ndash; сторожову та оборонну вежу, яка була частиною житла заможних городян, князівську гридницю;</li>
+    <li>культові споруди та об&rsquo;єкти: капище дохристиянської доби, церкву Святого Василя, камінь Велеса;</li>
+    <li>місце катувань і страт, облогову техніку, детально відтворену бойову лодію епохи Русі, та багато іншого.</li>
+</ul>
+<p><img src="/files/turi-vih-dnya/park KR/KyivanRus-3.JPG" width="1200" height="800" alt="Парк Київська Русь" title="Парк Київська Русь" class="img-responsive" /></p>
+<p><strong>Також, відвідувачі парку &laquo;Київська Русь&raquo; мають змогу:</strong></p>
+<ul>
+    <li>зустрітись із киянами князівських часів, воїнами, лучниками, наїзниками та навіть самим князям;</li>
+    <li>дізнатись, чим займались, як воювали та як відпочивали наші далекі пращури;</li>
+    <li>стати свідком лицарських змагань, різноманітних турнірів, шоу, історичних реконструкцій;</li>
+    <li>взяти участь у майстер-класах з гончарної та ковальської справи, навчитись їздити верхи під керівництвом інструктора, скоштувати обід, приготовлений за старовинним рецептом;</li>
+    <li>стати учасником фестивалів &laquo;Птах Фенікс&raquo;, &laquo;Словниця&raquo;, які проходять на території парку, відсвяткувати Великдень, Різдво, дні народження, зустріти Новий Рік, провести корпоративний захід.</li>
+</ul>
+<p><img src="/files/turi-vih-dnya/park KR/KyivanRus-4.JPG" width="1200" height="800" alt="Парк Київська Русь" title="Парк Київська Русь" class="img-responsive" /></p>
+<p>Усе, що бачать відвідувачі, вироблено чи відбувається <strong>із використанням наукових знань</strong> з архітектури, історії, літератури, літописів&nbsp; і фактично немає світових аналогів.</p>
+<p><img src="/files/turi-vih-dnya/park KR/KyivanRus-5.JPG" width="1200" height="800" alt="Парк Київська Русь" title="Парк Київська Русь" class="img-responsive" /></p>
+<p>Екскурсія до парку &laquo;Київська Русь&raquo; стане живим уроком історії та допоможе наочно переконатись у тому, про що нам відомо зі шкільних підручників.</p>
+<p><img src="/files/turi-vih-dnya/park KR/KyivanRus-6.JPG" width="1200" height="800" alt="Парк Київська Русь" title="Парк Київська Русь" class="img-responsive" /></p>
+<p><em>Тип екскурсії: автобусна, заміська, для групи</em></p>
+<p><em>Тривалість екскурсії: від 4 годин</em></p>
+<p><em>Будь ласка, зауважте, що екскурсія є можливою для організованих колективів, сформованих груп. На жаль, ми не здійснюємо набір індивідуальних туристів до групи та не комплектуємо групи.</em></p>
+                                    				&nbsp;<!--Если удалить этот пробел, в IE наблюдаются глюки-->
+                                    			</p>
+                                    		</div>
+                                    	</div>
+
+                                    	                                            <div class="center_container">
+                                                
+<div class="container_contant">
+                                                    
+
+            <div class="static_colunm">
+                <div class="column_block">
+                                        <div class="column_comtent"><p style="text-align: center;">Поставити запитання щодо екскурсії/туру, <br />
+уточнити її вартість та замовити екскурсію/тур<br />
+Ви можете за телефоном: <a href="tel:+38-098-520-84-48">+38 (098) 520-84-48</a><br />
+або електронною поштою: <a href="javascript:location.href='mailto:'+String.fromCharCode(71,117,105,100,101,64,116,111,117,114,115,100,101,107,105,101,118,46,99,111,109,46,117,97)+'?subject=%D0%A5%D0%BE%D1%82%D0%B8%D0%BC%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C'">Guide@toursdekiev.com.ua</a></p>
+<hr /></div>
+                </div>
+            </div>
+            </div>&nbsp;                                            </div>
+                                    	
+                    	                <div style="clear: both; border: 0; height: 0;"></div>
+
+                                        <!--Main column end-->
+
+                                    </div>
+                                </div>
+
+                                <div class="col2 col-md-3 col-md-pull-9"><!--   sag -->
+
+                                    <!--left column start-->
+                                                                            <aside class="left_section">
+                                            
+<div class="container_contant">
+                                                                                    
+
+            <div class="menu_controller">
+                <div class="column_block">
+                                        <div class="column_comtent">
+	<div class="menu_left">
+		
+						<a href="/uk/ekskursia-v-4ernigov">Чернігів</a>
+								    
+<div style="margin-left: 8px;">
+            
+    <a href="/uk/pamiatki-chernigova">Пам'ятки Чернігова</a>
+                
+</div>
+            
+									
+						<a href="/uk/tur-vyhidnogo-dnia-buki">Казкові Буки</a>
+								    
+									
+						<a href="/uk/ekskursia-boguslav-medvin-gora-totoha">Богуслав, Медвин</a>
+								    
+									
+						<a href="/uk/ekskursia-tcherkasy">Маловідомі Черкаси</a>
+								    
+									
+						<a href="/uk/ekskursia-golubi-ozera">Голубі озера</a>
+								    
+									
+						<a href="/uk/ekskursia-gluhiv">Глухів</a>
+								    
+									
+						<a href="/uk/vyshgorod">Вишгород</a>
+								    
+									
+						<a href="/uk/ekskursia-fastiv">Фастів + Фастівщина</a>
+								    
+									
+											<div class="selected"><a href="/uk/ekskursia-park-kyivska-rus">Парк «Київська Русь»</a></div>
+								
+					
+						<a href="/uk/zamky-pryrodni-dyva-volyni">Замки Волині</a>
+								    
+									
+						<a href="/uk/ekskursia-Rzhyshchiv">Ржищів, осетрова ферма</a>
+								    
+									
+						<a href="/uk/ekskursia-sedniv">Седнів</a>
+								    
+									
+						<a href="/uk/ekskursia-sukcholutchia">Сухолуччя</a>
+								    
+									
+						<a href="/uk/ekskursia-naddniprianske-namysto">Наддніпрянське намисто</a>
+								    
+									
+						<a href="/uk/ostriv-sakur">Острів сакур</a>
+								    
+									
+						<a href="/uk/eva-park">Парк Єва</a>
+								    
+									
+						<a href="/uk/ekskursia-sokyryntsy-trostyanets">Сокиринці, Тростянець</a>
+								    
+									
+						<a href="/uk/bogdaniv-krai-4igirin-subotiv-holodny-yar">Богданів край</a>
+								    
+									
+						<a href="/uk/ekskursia-v-uman-sofievka">Умань, Софіївка</a>
+								    
+									
+						<a href="/uk/ekskursia-v-tripillia">Трипілля</a>
+								    
+									
+						<a href="/uk/ekskursia-Pereiaslav">Переяслав-Хмельницький</a>
+								    
+									
+						<a href="/uk/ekskursia-pereyaslav-kaniv">Переяслав – Канів </a>
+								    
+									
+						<a href="/uk/ekskursia-v-Zhytomyr">Житомир</a>
+								    
+									
+						<a href="/uk/ekskursia-v-Baturin">Батурин</a>
+								    
+									
+						<a href="/uk/ekskursia-v-Po4aev">Почаївська Лавра</a>
+								    
+									
+						<a href="/uk/Ekskursia-Usadba-Korporativ">Хата моя, біла хата...</a>
+								    
+									
+						<a href="/uk/ekskursia-bogdanivka-yagotyn-kateryna-bilokur">Батьківщина Катерини Білокур</a>
+								    
+									
+						<a href="/uk/ekskursia-v-marianovku-kozlovskii">Мар'янівка</a>
+								    
+									
+						<a href="/uk/ekskursia-chernivtsi">Чернівці</a>
+								    
+									
+						<a href="/uk/ekskursia-v-kamenets-hotin-kriv4e">Кам'янець, Хотин, Кривче</a>
+								    
+									
+						<a href="/uk/ekskursia-vinnitsa">Елегантна Вінниця</a>
+								    
+									
+						<a href="/uk/vynnychyna">Красо України, Подолля! </a>
+								    
+									
+						<a href="/uk/ekskursia-volodarsk-volynskii">Кам'яне царство древлян</a>
+								    
+									
+						<a href="/uk/ekskursia-v-zamok-Radomisl">Замок Радомисль</a>
+								    
+									
+						<a href="/uk/ekskursia-sednev-sosnitsa-novgorod-severskii">Край «Зачарованої Десни»</a>
+								    
+									
+						<a href="/uk/ekskursia-poltavshchina">Полтавщина</a>
+								    
+									
+						<a href="/uk/tur-v-Zaporojie">Запоріжжя + Хортиця</a>
+								    
+									
+						<a href="/uk/ekskursia-v-korsun-stebliv">Корсунь, Стеблів</a>
+								    
+									
+						<a href="/uk/ekskursia-v-kachanovku">Качанівка</a>
+								    
+									
+						<a href="/uk/ekskursia-belaya-tserkov-aleksandria">Біла Церква</a>
+								    
+									
+						<a href="/uk/ekskursia-konniy-zavod">Кінний завод + Буцький каньйон</a>
+								    
+									
+						<a href="/uk/ekskursia-RVSN">Музей РВСП</a>
+								    
+									
+						<a href="/uk/ekskursia-po-balzakovskim-mestam">Бальзаківські місця</a>
+								    
+									
+						<a href="/uk/ekskursia-v-korosten-skala">Загадки об'єкта „Скеля”</a>
+								    
+									
+						<a href="/uk/Lvov">Львів</a>
+								    
+<div style="margin-left: 8px;">
+            
+    <a href="/uk/odnodnevnyi-tur-vo-Lvov">Одноденний тур до Львова</a>
+                
+</div>
+            
+<div style="margin-left: 8px;">
+            
+    <a href="/uk/dvuxdnevniy-tur-vo-Lvov-1">Дводенний тур до Львова</a>
+                
+</div>
+            
+<div style="margin-left: 8px;">
+            
+    <a href="/uk/dvuxdnevniy-tur-vo-Lvov-2">Дводенний тур до Львова 2</a>
+                
+</div>
+            
+<div style="margin-left: 8px;">
+            
+    <a href="/uk/dvuxdnevniy-tur-vo-Lvov-3">Дводенний тур до Львова 3</a>
+                
+</div>
+            
+<div style="margin-left: 8px;">
+            
+    <a href="/uk/dvuxdnevniy-tur-vo-Lvov-4">Дводенний тур до Львова 4</a>
+                
+</div>
+            
+<div style="margin-left: 8px;">
+            
+    <a href="/uk/dostoprime4atelnosti-lvova">Визначні місця Львова</a>
+                
+</div>
+            
+									
+						<a href="/uk/tur-iz-Kieva-v-Odessu">Тур до Одеси</a>
+								    
+									
+	</div>
+</div>
+                </div>
+            </div>
+                                                            
+
+            <div class="static_colunm">
+                <div class="column_block">
+                    <div class="column_title">Ми в соцмережах</div>                    <div class="column_comtent"><p style="text-align: center;">Підписуйтесь</p>
+<p><a href="https://www.facebook.com/ToursDeKiev">Facebook</a></p>
+<p><a href="https://www.instagram.com/toursdekiev/">Instagram</a></p>
+<p><a href="http://www.youtube.com/user/ToursDeKiev">YouTube</a></p></div>
+                </div>
+            </div>
+            </div>&nbsp;                                            <!--  value="200px"  sag -->
+                                    	</aside>
+                                	                                    <!--left column end-->
+                            </div>
+ <!-- SAG delete Right column -->                          
+                    		</div>
+                    	</div>
+                    </div>
+</div>   <!-- SAG container --> 
+
+
+
+                    <footer class="bottom" id="footer" style="text-align: center">   
+                                Copyright &copy; by <a href="/">ToursDeKiev</a>
+                    </footer>
+
+                    </div>
+                    
+
+                    <div style="clear: both;"></div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> <!-- sag -->
+     <script defer src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> <!-- sag -->
+
+<!--    <script async src='https://www.google.com/recaptcha/api.js'></script> s ag -->
+</html>
