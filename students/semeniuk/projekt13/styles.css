@@ -31,7 +31,7 @@
     background-size: cover;
 }
 .layer-back {
-    background-image: url('image2.jpg');
+    background-image: url('images2.png');
     transform: translateZ(-2px) scale(3);
 }
 .layer-middle {
@@ -61,4 +61,30 @@ parallax-layer {
     .parallax-header {
         background-attachment: scroll;
     }
+}
+.scroll-indicator {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.scroll-indicator:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    animation: scrollAnimation 2s infinite;
+}
+@keyframes scrollAnimation {
+    0% {top:10px; opcity: 1;}
+    100% {top: 30px; opacity: 0;}
 }
