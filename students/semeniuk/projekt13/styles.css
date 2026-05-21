@@ -54,7 +54,7 @@
 #parallax2 {
     background-image: url(images6.jpg);
 }
-parallax-layer {
+.parallax-layer {
     transition: transform 0.1s ease-out;
 }
 @media (max-width: 768) {
