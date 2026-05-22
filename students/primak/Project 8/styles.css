@@ -1,0 +1,96 @@
+/* Скидання стандартних стилів */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Стилі сторінки */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Навігаційне меню */
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+/* Головне меню */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+/* Посилання меню */
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+/* Ефект наведення */
+.menu a:hover {
+    background-color: #007bff;
+}
+
+/* Випадаюче меню */
+.dropdown {
+    position: relative;
+}
+
+/* Підменю */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    width: 200px;
+    border-radius: 4px;
+    padding: 10px 0;
+}
+
+/* Показ підменю при наведенні */
+.dropdown:hover .submenu {
+    display: block;
+}
+
+/* Пункти підменю */
+.submenu li {
+    padding: 5px 10px;
+}
+
+/* Посилання підменю */
+.submenu a {
+    color: white;
+    display: block;
+}
+
+/* Hover для підменю */
+.submenu a:hover {
+    background-color: #555;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .submenu {
+        position: static;
+        width: 100%;
+    }
+}
