@@ -21,18 +21,12 @@
     animation: move 3c infinite alternate;
 }
 @keyframes move {
- 0% {
-    transform: translate(1);
-    background-color: #9b59b6;
- }
- 50% {
-    transform: scale(1.1);
-    background-color: #8e44ad;
- }
- 100% {
-  transform: scale(1);
-  background-color:#9b59b6;
- }
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+           transform: scaleX(200px);
+    }
 }
 .puple {
     width: 150px;
@@ -44,4 +38,21 @@
     justify-content: center;
     margin: 30px auto;
     animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        background-color: #9b59b6;
+
+    }
+
+    50% {
+        transform: scale(1.1);
+        background-color: #8e44ad;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: #9b59b6;
+}
 }
