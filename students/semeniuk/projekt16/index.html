@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Екотур - Подорожі Україною</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Еко<span>Тур</span></a>
+            
+            <nav class="nav-menu">
+                <a href="#hero">Головна</a>
+                <a href="#features">Переваги</a>
+                <a href="#gallery">Галерея</a>
+                <a href="#testimonials">Відгуки</a>
+            </nav>
+
+            <a href="#cta" class="btn btn-call">Замовити дзвінок</a>
+
+            <button class="burger" aria-label="Відкрити меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <h1>Відкривай Україну по-новому</h1>
+                <p>Екскурсії у наймальовничіші та найзатаємніші куточки нашої країни разом із професійними гідами.</p>
+                <a href="#gallery" class="btn">Вибрати тур</a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Чому обирають нас</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🌲</div>
+                        <h3>Національні парки</h3>
+                        <p>Подорожі унікальними та нетуристичними екологічними маршрутами.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Безпека та комфорт</h3>
+                        <p>Досвідчені інструктори, перевірений транспорт та повне страхування.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📸</div>
+                        <h3>Враження на все життя</h3>
+                        <p>Невеликі групи, автентичні локації та фотосесії на кожному маршруті.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2 class="section-title">Наші маршрути</h2>
+                <div class="gallery-grid">
+                   <div class="gallery-item"><img src="images.svg.jpeg" loading="lazy" alt="Карпати"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&q=80" loading="lazy" alt="Синевир"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80" loading="lazy" alt="Дністровський каньйон"></div>
+                    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=600&q=80" loading="lazy" alt="Подільські Товтри"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Що кажуть мандрівники</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p class="review-text">"Це була неймовірна подорож у Карпати! Організація на найвищому рівні, краєвиди просто заворожують. Обов'язково поїду ще!"</p>
+                        <h4 class="review-author">- Марія С.</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="review-text">"Дуже сподобався підхід до екології. Ніякого сміття, повна повага до природи та дуже цікаві розповіді гіда."</p>
+                        <h4 class="review-author">- Олександр К.</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta">
+            <div class="container cta-content">
+                <h2>Готові до нової пригоди?</h2>
+                <p>Залиште заявку прямо зараз та отримайте чек-лист ідеального мандрівника у подарунок!</p>
+                <form class="cta-form" onsubmit="event.preventDefault(); alert('Дякуємо! Ми зв\'яжемося з вами найближчим часом.');">
+                    <input type="text" placeholder="Ваше ім'я" required>
+                    <input type="tel" placeholder="Номер телефону" required>
+                    <button type="submit" class="btn btn-submit">Хочу в тур</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 ЕкоТур. Всі права захищені. Створено з любов'ю до природи.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
