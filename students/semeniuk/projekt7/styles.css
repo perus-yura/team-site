@@ -70,6 +70,19 @@ body {
     height: 200px;
     object-fit: cover;
 }
+/* Контейнер для картинок у картці */
+.post-images {
+    display: flex;
+    padding: 10px; /* Акуратний відступ від країв картки, як на вашому скріншоті */
+}
+
+/* Налаштування картинки (коли вона одна в картці) */
+.post-images img {
+    width: 100%;       /* Тепер кожна картинка займає 100% ширини своєї картки */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px; /* Закруглені кути для краси */
+}
 .post h2 {
     padding: 15px;
     font-size: 22px;
@@ -132,4 +145,30 @@ body {
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.nav a {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #e74c3c;
+}
+
+/* Створюємо лінію під текстом, яка з'являється при наведенні */
+.nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Відступ лінії знизу від тексту */
+    width: 100%;
+    height: 2px; /* Товщина лінії */
+    background-color: #e74c3c;
+    vertical-align: middle;
+    transform: scaleX(0); /* Спочатку лінія невидима (стиснута до 0) */
+    transition: transform 0.3s ease;
+}
+
+.nav a:hover::after {
+    transform: scaleX(1); /* При наведенні лінія плавно розгортається на всю ширину */
 }
