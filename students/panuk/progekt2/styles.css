@@ -11,7 +11,7 @@ body {
     padding: 20px;
     margin: 5px;
 }
-.container {
+.contanier {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
