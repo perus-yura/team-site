@@ -1,4 +1,4 @@
-.btm {
+.btn {
     padding: 12px 24px;
     background-color: #3498db;
     color: white;
@@ -8,27 +8,33 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
 .btn:hover {
     background-color: #2980b9;
     transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0 , 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .box {
     width: 100px;
     height: 100px;
     background-color: #e74c3c;
     margin: 50px auto;
-    animation: move 3c infinite alternate;
+    animation: move 3S infinite alternate;
+
 }
+
 @keyframes move {
     0% {
         transform: translateX(0);
     }
+
     100% {
-           transform: scaleX(200px);
+        transform: translateX(200px);
     }
 }
-.puple {
+
+.pulse {
     width: 150px;
     height: 150px;
     background-color: #9b59b6;
@@ -38,7 +44,9 @@
     justify-content: center;
     margin: 30px auto;
     animation: pulse 2s infinite;
+
 }
+
 @keyframes pulse {
     0% {
         transform: scale(1);
