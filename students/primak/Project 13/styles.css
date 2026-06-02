@@ -1,0 +1,90 @@
+.parallax-header {
+    height: 100vh;
+    background-image: url('images1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.content-section {
+    padding: 80px 20px;
+    background: #f9f9f9;
+}
+.text-block {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.parallax-container {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.parallax-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.layer-back {
+    background-image: url('images2.jpg');
+    transform: translateZ(-2px) scale(3);
+}
+.layer-middle {
+    background-image: url('images3.jpg');
+    transform: translateZ(-1px) scale(2);
+}
+.layer-front {
+    background-image: url('images4.jpg');
+}
+.parallax-section {
+    height: 60vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax1 {
+    background-image: url(images5.jpg);
+}
+#parallax2 {
+    background-image: url(images6.jpg);
+}
+.parallax-layer {
+    transition: transform 0.1s ease-out;
+}
+@media (max-width: 768) {
+    .parallax-header {
+        background-attachment: scroll;
+    }
+}
+.scroll-indicator {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.scroll-indicator:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    animation: scrollAnimation 2s infinite;
+}
+@keyframes scrollAnimation {
+    0% {top:10px; opcity: 1;}
+    100% {top: 30px; opacity: 0;}
+}
