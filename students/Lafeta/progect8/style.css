@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* ===== НАВІГАЦІЙНЕ МЕНЮ ===== */
+.navbar {
+    background-color: #1f1f2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 100px;
+}
+
+/* Логотип */
+.logo {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Меню */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 35px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    transition: opacity 0.2s;
+}
+
+.nav-link:hover {
+    opacity: 0.8;
+}
+
+/* Стрілка для випадаючого меню */
+.dropdown-toggle::after {
+    content: ' ▼';
+    font-size: 8px;
+}
+
+/* Випадаюче меню */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2a2a3e;
+    min-width: 150px;
+    display: none;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-link {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+.dropdown-link:hover {
+    background-color: #3a3a4e;
+}
