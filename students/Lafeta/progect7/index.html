@@ -1,193 +1,61 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TravelBlog | Швейцарія</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    /* Hero Section */
-    .hero {
-      height: 100vh;
-      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-                  url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920') center/cover no-repeat;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: white;
-      position: relative;
-    }
-
-    .hero-content {
-      z-index: 2;
-    }
-
-    .hero h1 {
-      font-size: 3.5rem;
-      margin-bottom: 20px;
-    }
-
-    .btn {
-      display: inline-block;
-      background: #e63939;
-      color: white;
-      padding: 14px 32px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 20px;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background: #d62828;
-      transform: scale(1.05);
-    }
-
-    /* Cards Section */
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-
-    h2 {
-      text-align: center;
-      font-size: 2.5rem;
-      margin-bottom: 50px;
-      color: #333;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-      gap: 30px;
-    }
-
-    .card {
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 15px 30px rgba(0,0,0,0.15);
-    }
-
-    .card img {
-      width: 100%;
-      height: 240px;
-      object-fit: cover;
-    }
-
-    .card-content {
-      padding: 20px;
-    }
-
-    .card h3 {
-      margin-bottom: 12px;
-      color: #333;
-    }
-
-    .card p {
-      color: #666;
-      line-height: 1.6;
-      margin-bottom: 15px;
-    }
-
-    .read-more {
-      color: #e63939;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    /* Footer */
-    footer {
-      background: #1e2a44;
-      color: white;
-      text-align: center;
-      padding: 30px 20px;
-    }
-
-    .social-icons a {
-      color: white;
-      font-size: 1.8rem;
-      margin: 0 12px;
-      text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Львів</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Останні подорожі</h1>
-      <p style="font-size: 1.3rem; margin-bottom: 30px;">Швейцарія — країна Альп, шоколаду та неймовірних краєвидів</p>
-      <a href="#" class="btn">Читати блог</a>
+<header>
+    <nav>
+        <h2>LvivBlog</h2>
+        <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Місця</a></li>
+            <li><a href="#">Про Львів</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Відкрий для себе Львів</h1>
+        <button>Дізнатися більше</button>
     </div>
-  </section>
+</header>
 
-  <!-- Cards -->
-  <div class="container">
-    <h2>Наші подорожі по Швейцарії</h2>
-    
-    <div class="cards">
+<section class="cards">
 
-      <!-- Card 1 -->
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800" alt="Маттергорн">
-        <div class="card-content">
-          <h3>Маттергорн — вершина мрії</h3>
-          <p>Як ми піднімалися до підніжжя найзнаменитішої гори світу та зустрічали схід сонця...</p>
-          <a href="#" class="read-more">Далі →</a>
-        </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" alt="Інтерлакен">
-        <div class="card-content">
-          <h3>Інтерлакен та озера Бріенц і Тун</h3>
-          <p>Параглайдинг, човни, смачний фондю та неймовірні краєвиди Юнгфрау...</p>
-          <a href="#" class="read-more">Далі →</a>
-        </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=800" alt="Швейцарський шоколад">
-        <div class="card-content">
-          <h3>Шоколадний рай у Брі</h3>
-          <p>Відвідали фабрику Cailler і дізналися всі секрети швейцарського шоколаду...</p>
-          <a href="#" class="read-more">Далі →</a>
-        </div>
-      </div>
-
+    <div class="card">
+        <img src="img1.webp" alt="">
+        <h3>Площа Ринок</h3>
+        <p>Серце старого міста Львова.</p>
+        <a href="#">Далі →</a>
     </div>
-  </div>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 TravelBlog — Швейцарія</p>
-    <div class="social-icons">
-      <a>instagram</a>
-      <a>facebook</a>
-     
+    <div class="card">
+        <img src="img2.jpg" alt="">
+        <h3>Львівська опера</h3>
+        <p>Одна з найкрасивіших будівель України.</p>
+        <a href="#">Далі →</a>
     </div>
-  </footer>
+
+    <div class="card">
+        <img src="img3.jpg" alt="">
+        <h3>Високий Замок</h3>
+        <p>Чудовий краєвид на місто.</p>
+        <a href="#">Далі →</a>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 LvivBlog</p>
+    <div class="social">
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+</div>
+</footer>
 
 </body>
 </html>
