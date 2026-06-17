@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.parallax{
+    height: 100vh;
+    background-image: url("fon.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax h1{
+    color: white;
+    font-size: 50px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.text{
+    padding: 50px;
+    text-align: center;
+    background: white;
+}
+
+.text h2{
+    margin-bottom: 15px;
+}
+
+.second{
+    background-image: url("fon2.png");
+}
